@@ -3219,8 +3219,8 @@ sup {
 }
 .logo img {
   display: block;
- width: 300px ;
-  height:150px ;
+ width: 250px ;
+  height:120px ;
 }
 .icon-alt {
   display: none;
@@ -3312,7 +3312,7 @@ sup {
 }
 @media (max-width: 1400px) {
   .header-middle {
-    padding: 0 3rem;
+    padding: 0 0.1rem;
   }
   .header-middle .btn-sm {
     display: none;
@@ -4149,7 +4149,7 @@ ul.sub-menu li.li-with-arrow i.fa-caret-right {
 }
 .footer-top {
   width: 100%;
-  padding: 147px 0 52px;
+  padding:50px 0 10px;
 }
 @media (max-width: 991px) {
   .footer-top {
