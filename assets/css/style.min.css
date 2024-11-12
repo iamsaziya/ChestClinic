@@ -8797,6 +8797,7 @@ input[type="password"] {
 }
 .sidebar-box.bg-primary-color .box-title::before {
   background-color: #364587;
+  
 }
 .sidebar-box.bg-primary-color .form-control::-webkit-input-placeholder {
   color: #fff;
