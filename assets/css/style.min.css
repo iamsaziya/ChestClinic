@@ -3975,7 +3975,7 @@ ul.sub-menu li.li-with-arrow i.fa-caret-right {
 .mobile-search .form-control {
   height: 36px;
   margin-bottom: 0;
-  -webkit-appearance: none;
+  appearance: none;
   font-size: 1.2rem;
   line-height: 1.5;
   padding: 0.8rem 1.5rem;
@@ -9332,7 +9332,7 @@ input[type="password"] {
   }
 }
 .bg-section-1 {
-  background-image: url("../images/demos/demo-1/banner/banner-hero-1.jpg");
+  background-image: url("../images/banner/homee-2.jpg");
   background-position: 50% top;
 }
 .bg-section-2 {
