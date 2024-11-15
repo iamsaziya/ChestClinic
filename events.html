@@ -4,12 +4,13 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 
-	<title>Kasat Chest Clinic - Treatments</title>
-	<meta name="keywords" content="Kasat Chest Clinic" />
+	<title>Kasat Chest Clinic - Events</title>
+
+    <meta name="keywords" content="Kasat Chest Clinic" />
 	<meta name="description" content="Kasat Chest Clinic">
-		
 	<!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="assets/images/Dr._Kasat-removebg-preview.png">
+	
 	
 	<!-- Plugins CSS File -->
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -19,9 +20,23 @@
 	<!-- Main CSS File -->
 	<link rel="stylesheet" href="assets/css/style.min.css">
 	<link rel="stylesheet" href="assets/vendor/fontawesome/css/all.min.css">
-	
+	<style>
+            .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+    }
+
+    .gallery img {
+      margin-left:4rem;
+      margin-right: 4rem;
+      width: 90%;
+      height: auto;
+      object-fit: cover;
+    }
+    </style>
 </head>
-<body> 	
+<body>
     <!------------------------------------------------
 	loading overlay - start
 	------------------------------------------------>
@@ -115,9 +130,7 @@
 						<span>Book an Appointment</span>
 					</a>
                     <a href="appointment-step1.html" class="icon-alt"><i class="fal fa-notes-medical"></i></a>
-                    <a href="login.html" class="btn btn-sm btn-secondary-color ls-0 btn-login">
-						<span>Sign in</span>
-					</a>
+                 
                    
                 </div>
             </div>
@@ -131,12 +144,11 @@
 		    ------------------------------------------------>
             <div class="page-header bg-more-light">
                 <div class="container">
-                    <h2 class="page-title">Treatments</h2>
+                    <h2 class="page-title">Gallery</h2>
                     <nav aria-label="breadcrumb" class="breadcrumb-nav">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                            <li class="breadcrumb-item active"><a href="about.html">About Us</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Treatments</li>
+                            <li class="breadcrumb-item active" aria-current="page">Events</li>
                         </ol>
                     </nav>
                 </div>
@@ -144,154 +156,23 @@
             <!------------------------------------------------
 		    page header - end
 		    ------------------------------------------------>
-            <!------------------------------------------------
-			step section section - start
-			------------------------------------------------>
-            <div class="container step-section">
-                <div class="row d-flex justify-content-center">
-                    <div class="col-lg-12 col-md-8 col-sm-8 col-10">
-                        <h2 class="ls-n-20 text-center section-heading">Our experts cover all sort of conditions.</h2>
-                    </div>
-                </div>
-                <div class="row d-flex justify-content-center">
-                <div class="banner-aside align-items-lg-start d-md-flex col-lg-12 col-md-8 col-sm-8 col-10">
-                    <figure class="mr-xl-10 mr-lg-5 mr-md-3">
-                        <img src="assets/images/other/treat-1.jpg" class="img-aside" alt="Banner-aside" width="470" height="447"v style="height: 400px;">
-                        <img src="assets/images/demos/demo-6/puzzle/puzzle-1.png" class="puzzle" alt="Puzzle" width="160" height="217">
-                    </figure>
-                    <div class="banner-content mt-5">
-                        <p class="banner-subtitle">Common Conditions</p>
-                        <h3 class="banner-title">Need urgent care we are here for you.</h3>
-                        <div class="row">
-                            <div class="col-md-6 col-xl-6">
-                                <ul class="card-menu ls-20 mb-0">
-                                    <li class="menu-item"><a  class="item-link">Allergies</a></li>
-                                    <li class="menu-item"><a  class="item-link">Chronic Cough
-                                    </a></li>
-                                    <li class="menu-item"><a  class="item-link">Sinusitis</a></li>
-                                    <li class="menu-item"><a  class="item-link">Bronchitis</a></li>
-                                    <li class="menu-item"><a  class="item-link">Seasonal Flu and Cold
-                                    </a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="banner-aside align-items-lg-start d-md-flex img-right col-lg-12 col-md-8 col-sm-8 col-10">
-                    <figure>
-                        <img src="assets/images/other/treat-2.jpg" class="img-aside" alt="Banner-aside" width="470" height="447"v style="height: 400px;">
-                        <img src="assets/images/demos/demo-6/puzzle/puzzle-2.png" class="puzzle" alt="Puzzle" width="160" height="217">
-                    </figure>
-                    <div class="banner-content mt-5 order-first">
-                        <p class="banner-subtitle">Special Conditions:
-                        </p>
-                        <h3 class="banner-title mr-n-1">Serious disease get care every step of the way.</h3>
-                        <div class="row">
-                            <div class="col-md-6 col-xl-6">
-                                <ul class="card-menu ls-20 mb-0">
-                                    <li class="menu-item"><a  class="item-link">Tuberculosis (TB)
-                                    </a></li>
-                                    <li class="menu-item"><a  class="item-link">Interstitial Lung Disease (ILD)
-                                    </a></li>
-                                    <li class="menu-item"><a  class="item-link">Pulmonary Hypertension
-                                    </a></li>
-                                    <li class="menu-item"><a  class="item-link">Sleep Apnea
-                                    </a></li>
-                                    <li class="menu-item"><a  class="item-link">Sarcoidosis</a></li>
-                                    <li class="menu-item"><a  class="item-link"> Lung Cancer
-                                    </a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="banner-aside align-items-lg-start d-md-flex col-lg-12 col-md-8 col-sm-8 col-10">
-                    <figure class="mr-xl-10 mr-lg-5 mr-md-3">
-                        <img src="assets/images/other/treat-3.jpg" class="img-aside" alt="Banner-aside" width="470" height="447"v style="height: 400px;">
-                        <img src="assets/images/demos/demo-6/puzzle/puzzle-3.png" class="puzzle" alt="Puzzle" width="160" height="217">
-                    </figure>
-                    <div class="banner-content mt-5">
-                        <p class="banner-subtitle">Respiratory Diseases:
-                        </p>
-                        <h3 class="banner-title">Book an appointment for everyday care.</h3>
-                        <div class="row">
-                            <div class="col-md-6 col-xl-6">
-                                <ul class="card-menu ls-20 mb-0">
-                                    <li class="menu-item"><a  class="item-link">Asthma</a></li>
-                                    <li class="menu-item"><a  class="item-link">Chronic Obstructive Pulmonary Disease (COPD)</a></li>
-                                    <li class="menu-item"><a  class="item-link">Pneumonia</a></li>
-                                    <li class="menu-item"><a  class="item-link">Emphysema</a></li>
-                                    <li class="menu-item"><a  class="item-link">Bronchiectasis</a></li>
-                                    <li class="menu-item"><a  class="item-link">Pulmonary Fibrosis</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <!------------------------------------------------
-			step section section - end
-			------------------------------------------------>
-            <!------------------------------------------------
-            explore section - start
-			------------------------------------------------>
-			<div class="bg-light-color explore-section">
-				<div class="container">
-					<h2 class="ls-n-20 text-center section-heading">More to explore.</h2>
-                    <div class="explore-section-row">
-                        <div class="image-box explore-card text-center">
-                            <a href="appointment-step1.html">
-                                <figure>
-                                    <img src="assets/images/other/treat-1.jpg" class="w-100" alt="Blog" style="height: 250px;">
-                                    <div class="hover">
-                                        <div class="circle">
-                                            <i class="fas fa-link"></i>
-                                        </div>
-                                    </div>
-                                </figure>
-                                <div class="box-content">
-                                    <h4 class="box-title">Book an<br>appointment</h4>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="image-box explore-card text-center">
-                            <a href="gallery.html">
-                            <figure>
-                                <img src="assets/images/other/treat-2.jpg" class="w-100" alt="Blog"style="height: 250px;">
-                                <div class="hover">
-                                    <div class="circle">
-                                        <i class="fas fa-link"></i>
-                                    </div>
-                                </div>
-                            </figure>
-                            <div class="box-content">
-                                <h4 class="box-title">Our <br> Gallery</h4>
-                            </div>
-                            </a>
-                        </div>
-                        <div class="image-box explore-card text-center">
-                            <a href="treatments.html">
-                            <figure>
-                                <img src="assets/images/other/treat-3.jpg" class="w-100" alt="Blog"style="height: 250px;">
-                                <div class="hover">
-                                    <div class="circle">
-                                        <i class="fas fa-link"></i>
-                                    </div>
-                                </div>
-                            </figure>
-                            <div class="box-content">
-                                <h4 class="box-title">What we<br>treat</h4>
-                            </div>
-                            </a>
-                        </div>
-                    </div>
-				</div>
-			</div>
-            <!------------------------------------------------
-            explore section - end
-			------------------------------------------------>
+           <h1 style="margin-left: 3rem; margin-top: 2rem;">Our Events</h1>
+                <div class="gallery">
+                <img src="./assets/images/members/events-10.jpg" alt="Image 2">
+                <img src="./assets/images/members/events-11.jpg" alt="Image 3">
+                <img src="./assets/images/members/events-13.jpg" alt="Image 5">
+                <img src="./assets/images/members/events-4.jpg" alt="Image 8">
+                <img src="./assets/images/members/events-5.jpg" alt="Image 9" style="height: 290px;">
+                <img src="./assets/images/members/events-9.jpg" alt="Image 13">
+                
+                <img src="./assets/images/members/events-2.jpg" alt="Image 6">
+                <img src="./assets/images/members/events-6.jpg" alt="Image 10" style="height: 220px;">
+                <img src="./assets/images/members/events-8.jpg" alt="Image 12">
+                <img src="./assets/images/members/events-3.jpg" alt="Image 7">
+                <img src="./assets/images/members/events-1.jpg" alt="Image 1">
+                <img src="./assets/images/members/events-12.jpg" alt="Image 4">
+                <img src="./assets/images/members/events-7.jpg" alt="Image 11" style="height: 400px;"> 
+              </div>
         </main>
         <!------------------------------------------------
 		footer - start
@@ -376,9 +257,9 @@
 		footer - end
 		------------------------------------------------>
     </div>
+    
     <button id="scroll-top" title="Back to Top"><i class="fal fa-angle-up"></i></button>
 
-    
     <div class="mobile-menu-overlay"></div>
 
     <div class="mobile-menu-container mobile-menu-light">
@@ -438,7 +319,9 @@
         </div><!-- End .mobile-menu-wrapper -->
     </div><!-- End .mobile-menu-container -->
     
-    
+    <!-- Google Map -->
+    <script src="http://maps.googleapis.com/maps/api/js?key"></script>
+
     <!-- Plugins JS File -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
@@ -451,6 +334,46 @@
     
     <!-- Main JS File -->
     <script src="assets/js/main.min.js"></script>
+
+    <script>
+        // Google Map api v3 - Map for contact pages
+        if ( document.getElementById("map") && typeof google === "object" ) {
+
+        var content =   '<address>' +
+                            '88 Pine St,<br>' +
+                            'New York, NY 10005, USA<br>'+
+                            '<a href="#" class="direction-link" target="_blank">Get Directions <i class="icon-angle-right"></i></a>'+
+                        '</address>';
+
+        var latLong = new google.maps.LatLng(40.8127911,-73.9624553);
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 14,
+            center: latLong, // Map Center coordinates
+            scrollwheel: false,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+
+        });
+
+        var infowindow = new google.maps.InfoWindow({
+            content: content,
+            maxWidth: 360
+        });
+
+        var marker;
+        marker = new google.maps.Marker({
+            position: latLong,
+            map: map,
+            animation: google.maps.Animation.DROP
+        });
+
+        google.maps.event.addListener(marker, 'click', (function (marker) {
+            return function() {
+            infowindow.open(map, marker);
+            }
+        })(marker));
+        }
+    </script>
     
 </body>
 </html>
