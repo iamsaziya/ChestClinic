@@ -21,6 +21,69 @@
 	<link rel="stylesheet" href="assets/css/style.min.css">
 	<link rel="stylesheet" href="assets/vendor/fontawesome/css/all.min.css">
 	<style>
+.whatsapp-btn {
+		position: fixed;
+		left: 24px;
+		bottom: 24px;
+		z-index: 999;
+	}
+
+	.whatsapp-btn a {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 60px;
+		height: 60px;
+		background-color: #25D366;
+		border-radius: 50%;
+		box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+		transition: all 0.3s ease;
+	}
+
+	.whatsapp-btn a:hover {
+		background-color: #20b957;
+		transform: scale(1.1);
+	}
+
+	.whatsapp-btn i {
+		font-size: 35px;
+		color: white;
+	}
+
+	/* Tooltip style */
+	.whatsapp-btn .tooltip {
+		position: absolute;
+		right: 75px;
+		top: 50%;
+		transform: translateY(-50%);
+		background: #333;
+		color: white;
+		padding: 8px 12px;
+		border-radius: 4px;
+		font-size: 14px;
+		opacity: 0;
+		visibility: hidden;
+		transition: all 0.3s ease;
+		white-space: nowrap;
+	}
+
+	.whatsapp-btn:hover .tooltip {
+		opacity: 1;
+		visibility: visible;
+	}
+
+	/* Optional animation */
+	@keyframes pulse {
+		0% { transform: scale(1); }
+		50% { transform: scale(1.1); }
+		100% { transform: scale(1); }
+	}
+
+	.whatsapp-btn a:hover {
+		animation: none;
+		background-color: #128C7E;
+	}
+
 		.counter-section {
 		background-color: #364587; /* Your primary color */
 		padding: 60px 0;
@@ -796,7 +859,14 @@
 		------------------------------------------------>
 	</div>
 	<button id="scroll-top" title="Back to Top"><i class="fal fa-angle-up"></i></button>
-	
+
+    <!-- WhatsApp Button -->
+	<div class="whatsapp-btn">
+       
+        <a href="https://wa.me/919420165297" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
 	
 
     <div class="mobile-menu-overlay"></div>
@@ -854,7 +924,11 @@
 
 			
 		</div>
+	
 	</div>
+
+
+
 	
 	
 	<!-- Plugins JS File -->
